@@ -16,6 +16,7 @@ $$
 import numpy as np
 
 def softmax(x):
+    "Compute the softmax of the 1D NumPy array x"
     y = np.exp(x)
     return y / y.sum()
 ```
