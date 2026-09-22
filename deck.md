@@ -84,19 +84,23 @@ def softmax(x: NDArray[np.float64]) -> NDArray[np.float64]
 
 ---
 
-Can the call `y = softmax(x)`...
+![bg fit right:33%](images/this-is-fine-1.png)
 
-<br>
 
-- compute "incorrect" values?
+# Can `y = softmax(x)`...
+
+
+- compute "incorrect" values of `y`?
 
 - accept lists (instead of arrays) of floats?
 
 - raise an exception?
 
-- return an array with `y.shape != x.shape`?
 
 ---
+
+![bg fit right:33%](images/this-is-fine-1.png)
+
 
 - never return?
 
@@ -106,12 +110,13 @@ Can the call `y = softmax(x)`...
 
 
 ---
+![bg fit right:33%](images/this-is-fine-1.png)
+
+
 
 - return incorrect values if your OS is Windows?
 
 - return incorrect values 0.01% of the time?
-
-- say out loud "Alexa, order 1000 rolls of toilet papers"?
 
 - encrypt all the files in your home directory?
 
