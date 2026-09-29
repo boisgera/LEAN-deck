@@ -158,7 +158,7 @@ Wiles eventually found the patch!
 
 ---
 
-Formalization effort: [The Fermat's Last Theorem Project](https://leanprover-community.github.io/blog/posts/FLT-announcement/) (ongoing)
+🧑 Formalization effort: [The Fermat's Last Theorem Project](https://leanprover-community.github.io/blog/posts/FLT-announcement/) (ongoing)
 
 
 ```lean
@@ -171,29 +171,51 @@ theorem fermat_last_theorem (n a b c : ℕ) (hn : 2 < n)
 ---
 <!-- _class: lead -->
 <!-- _paginate: false -->
-# Appendix II : AI + Lean
+# Appendix II : Certified Software - Why Now?
 
+🧑 Software development (Python, C, ...):
 
-- 🤖 **AI** can write code **very quickly**, but it is often complex and buggy,
+- dev. speed: 🔵🔵⚪⚪
 
-- 🧑 **You** can write **very slowly** some Lean code which is provably correct.
+- code quality: 🔵🔵⚪⚪
 
-$\rightarrow$ 💡 **Combine both methods!**
+🧑 + 🛡️ Certified software development (Lean, Rocq, ...):
+
+- dev. speed: ⚪⚪⚪⚪
+
+- code quality: 🔵🔵🔵🔵
+
+$\to$ use formal methods **only** when correctness matters **a lot**
+(ex : safety-critical systems, financial transactions, etc.)
+
+---
+
+## AI is a *potential* game changer
+
+🤖 Software developement with AI:
+
+- dev. speed: 🔵🔵🔵🔵
+
+- code quality: 🔵⚪⚪⚪ (⚠️ hallucinations, "AI slop", etc.)
 
 ----
 
-## **Agentic loop**
+🤖 + 🛡️ Certified software developement with AI agents:
+
+- dev. speed: 🔵🔵🔵⚪
+
+- code quality: 🔵🔵🔵🔵
+
+The **agentic loop**:
 
 1. 📝 AI generates some Lean code from a formal spec, 
-2. Lean either
-  - ✅ validates the program. Victory! 🎉 
-  - ⚠️ outputs errors messages,
-3. 🔄 AI analyzes the errors. $\rightarrow$ Go back to 1.
+2. 🧠 Lean either ✅ validates the program or ⚠️ outputs errors messages,
+3. 🔄 AI analyzes the errors and goes back to 1.
  
 
 ---
 
-Automatic formalization works in Mathematics too:
+🤖 AI works in formal Mathematics too:
 
 [Formalizing Fermat's Last Theorem](https://www.anthropic.com/research/formalizing-fermats-last-theorem) (Anthropic)
 
