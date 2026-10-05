@@ -239,6 +239,11 @@ theorem fermat_last_theorem (n a b c : ℕ) (hn : 2 < n)
 ## "This is fine."
 
 ---
+<!-- _paginate: false -->
+
+<video src="images/rabbits.mp4" controls style="max-height: 70vh; max-width: 100%; display: block; margin: 0 auto;"></video>
+
+---
 
 # 🤖 Softmax
 
