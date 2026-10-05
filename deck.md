@@ -81,23 +81,20 @@ structure Rat where
 
 # Programming Paradigm
 
-- statically typed & type-checked & compiled
-- functional language 
-- pure (with explicit side-effects)
+"Exotic" (i.e. unfamiliar) constructs:
 
-... and much much more!
+- functional language,
+- statically typed & compiled,
+- algebraic data types, 
+- pattern matching, 
+- recursive functions,
+- type classes,
+- immutability & purity,
+- dependent types ...
 
-----
+... and more!
 
-For example:
 
-- Everything is an expression,
-- Functions are first-class citizens,
-- Types are everywhere,
-- Data is immutable,
-- There is no implicit side-effects,
-- Recursion is fundamental,
-- ...
 
 ---
 <!-- _paginate: false -->
@@ -139,7 +136,7 @@ For example:
 <!-- _paginate: false -->
 # Appendix I : Certified Software - Why Now?
 
-🧑 Software development (Python, C, ...):
+🧑 Software development (e.g. C++):
 
 - dev. speed: 🔵🔵⚪⚪
 
