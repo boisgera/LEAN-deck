@@ -1,0 +1,1 @@
+[![slide deck](images/slide-deck.png)](git@github.com:boisgera/LEAN-deck.git)
